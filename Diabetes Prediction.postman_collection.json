@@ -1,0 +1,369 @@
+{
+	"info": {
+		"_postman_id": "39d128cb-e800-4597-99cb-d933e7cea650",
+		"name": "Diabetes Prediction",
+		"schema": "https://schema.getpostman.com/json/collection/v2.1.0/collection.json",
+		"_exporter_id": "13004953"
+	},
+	"item": [
+		{
+			"name": "Diabetes Prediction",
+			"request": {
+				"method": "POST",
+				"header": [],
+				"body": {
+					"mode": "formdata",
+					"formdata": [
+						{
+							"key": "gender",
+							"value": "m",
+							"type": "text"
+						},
+						{
+							"key": "polyuria",
+							"value": "y",
+							"type": "text"
+						},
+						{
+							"key": "polydipsia",
+							"value": "y",
+							"type": "text"
+						},
+						{
+							"key": "sudden_weight_loss",
+							"value": "n",
+							"type": "text"
+						},
+						{
+							"key": "weakness",
+							"value": "n",
+							"type": "text"
+						},
+						{
+							"key": "polyphagia",
+							"value": "y",
+							"type": "text"
+						},
+						{
+							"key": "genital_thrush",
+							"value": "n",
+							"type": "text"
+						},
+						{
+							"key": "visual_blurring",
+							"value": "n",
+							"type": "text"
+						},
+						{
+							"key": "itching",
+							"value": "n",
+							"type": "text"
+						},
+						{
+							"key": "irritability",
+							"value": "n",
+							"type": "text"
+						},
+						{
+							"key": "delayed_healing",
+							"value": "n",
+							"type": "text"
+						},
+						{
+							"key": "partial_paresis",
+							"value": "y",
+							"type": "text"
+						},
+						{
+							"key": "muscle_stiffness",
+							"value": "n",
+							"type": "text"
+						},
+						{
+							"key": "alopecia",
+							"value": "n",
+							"type": "text"
+						},
+						{
+							"key": "obesity",
+							"value": "n",
+							"type": "text"
+						},
+						{
+							"key": "age",
+							"value": "25",
+							"type": "text"
+						},
+						{
+							"key": "user_id",
+							"value": "15",
+							"type": "text"
+						},
+						{
+							"key": "name",
+							"value": "Ravi",
+							"type": "text"
+						}
+					]
+				},
+				"url": {
+					"raw": "https://floating-gorge-29348.herokuapp.com/take_test/",
+					"protocol": "https",
+					"host": [
+						"floating-gorge-29348",
+						"herokuapp",
+						"com"
+					],
+					"path": [
+						"take_test",
+						""
+					]
+				}
+			},
+			"response": [
+				{
+					"name": "Diabetes Prediction",
+					"originalRequest": {
+						"method": "POST",
+						"header": [],
+						"body": {
+							"mode": "formdata",
+							"formdata": [
+								{
+									"key": "gender",
+									"value": "m",
+									"type": "text"
+								},
+								{
+									"key": "polyuria",
+									"value": "y",
+									"type": "text"
+								},
+								{
+									"key": "polydipsia",
+									"value": "y",
+									"type": "text"
+								},
+								{
+									"key": "sudden_weight_loss",
+									"value": "n",
+									"type": "text"
+								},
+								{
+									"key": "weakness",
+									"value": "n",
+									"type": "text"
+								},
+								{
+									"key": "polyphagia",
+									"value": "y",
+									"type": "text"
+								},
+								{
+									"key": "genital_thrush",
+									"value": "n",
+									"type": "text"
+								},
+								{
+									"key": "visual_blurring",
+									"value": "n",
+									"type": "text"
+								},
+								{
+									"key": "itching",
+									"value": "n",
+									"type": "text"
+								},
+								{
+									"key": "irritability",
+									"value": "n",
+									"type": "text"
+								},
+								{
+									"key": "delayed_healing",
+									"value": "n",
+									"type": "text"
+								},
+								{
+									"key": "partial_paresis",
+									"value": "y",
+									"type": "text"
+								},
+								{
+									"key": "muscle_stiffness",
+									"value": "n",
+									"type": "text"
+								},
+								{
+									"key": "alopecia",
+									"value": "n",
+									"type": "text"
+								},
+								{
+									"key": "obesity",
+									"value": "n",
+									"type": "text"
+								},
+								{
+									"key": "age",
+									"value": "25",
+									"type": "text"
+								},
+								{
+									"key": "user_id",
+									"value": "15",
+									"type": "text"
+								},
+								{
+									"key": "name",
+									"value": "Ravi",
+									"type": "text"
+								}
+							]
+						},
+						"url": {
+							"raw": "https://floating-gorge-29348.herokuapp.com/take_test/",
+							"protocol": "https",
+							"host": [
+								"floating-gorge-29348",
+								"herokuapp",
+								"com"
+							],
+							"path": [
+								"take_test",
+								""
+							]
+						}
+					},
+					"status": "OK",
+					"code": 200,
+					"_postman_previewlanguage": "json",
+					"header": [
+						{
+							"key": "Connection",
+							"value": "keep-alive"
+						},
+						{
+							"key": "Server",
+							"value": "gunicorn"
+						},
+						{
+							"key": "Date",
+							"value": "Fri, 15 Jul 2022 16:21:25 GMT"
+						},
+						{
+							"key": "Content-Type",
+							"value": "application/json"
+						},
+						{
+							"key": "Content-Length",
+							"value": "82"
+						},
+						{
+							"key": "Via",
+							"value": "1.1 vegur"
+						}
+					],
+					"cookie": [],
+					"body": "{\n    \"message\": \"ok\",\n    \"result\": {\n        \"prediction\": \"positive\",\n        \"type\": \"Type I\"\n    },\n    \"status\": \"ok\"\n}"
+				}
+			]
+		},
+		{
+			"name": "Get user reports list",
+			"protocolProfileBehavior": {
+				"disableBodyPruning": true
+			},
+			"request": {
+				"method": "GET",
+				"header": [],
+				"body": {
+					"mode": "formdata",
+					"formdata": [
+						{
+							"key": "user_id",
+							"value": "15",
+							"type": "text"
+						}
+					]
+				},
+				"url": {
+					"raw": "https://floating-gorge-29348.herokuapp.com/view_reports/",
+					"protocol": "https",
+					"host": [
+						"floating-gorge-29348",
+						"herokuapp",
+						"com"
+					],
+					"path": [
+						"view_reports",
+						""
+					]
+				}
+			},
+			"response": [
+				{
+					"name": "Get user reports list",
+					"originalRequest": {
+						"method": "GET",
+						"header": [],
+						"body": {
+							"mode": "formdata",
+							"formdata": [
+								{
+									"key": "user_id",
+									"value": "15",
+									"type": "text"
+								}
+							]
+						},
+						"url": {
+							"raw": "https://floating-gorge-29348.herokuapp.com/view_reports/",
+							"protocol": "https",
+							"host": [
+								"floating-gorge-29348",
+								"herokuapp",
+								"com"
+							],
+							"path": [
+								"view_reports",
+								""
+							]
+						}
+					},
+					"status": "OK",
+					"code": 200,
+					"_postman_previewlanguage": "json",
+					"header": [
+						{
+							"key": "Connection",
+							"value": "keep-alive"
+						},
+						{
+							"key": "Server",
+							"value": "gunicorn"
+						},
+						{
+							"key": "Date",
+							"value": "Fri, 15 Jul 2022 16:21:01 GMT"
+						},
+						{
+							"key": "Content-Type",
+							"value": "application/json"
+						},
+						{
+							"key": "Content-Length",
+							"value": "1563"
+						},
+						{
+							"key": "Via",
+							"value": "1.1 vegur"
+						}
+					],
+					"cookie": [],
+					"body": "{\n    \"message\": \"ok\",\n    \"result\": [\n        {\n            \"age\": \"25\",\n            \"alopecia\": \"n\",\n            \"delayed_healing\": \"n\",\n            \"gender\": \"m\",\n            \"genital_thrush\": \"n\",\n            \"id\": 6,\n            \"irritability\": \"n\",\n            \"itching\": \"n\",\n            \"muscle_stiffness\": \"n\",\n            \"name\": \"Ravi\",\n            \"obesity\": \"n\",\n            \"partial_paresis\": \"y\",\n            \"polydipsia\": \"y\",\n            \"polyphagia\": \"y\",\n            \"polyuria\": \"y\",\n            \"result\": \"positive\",\n            \"sudden_weight_loss\": \"n\",\n            \"test_date\": \"2022-07-15\",\n            \"type\": \"Type I\",\n            \"uid\": \"15\",\n            \"visual_blurring\": \"n\",\n            \"weakness\": \"n\"\n        },\n        {\n            \"age\": \"25\",\n            \"alopecia\": \"n\",\n            \"delayed_healing\": \"n\",\n            \"gender\": \"f\",\n            \"genital_thrush\": \"n\",\n            \"id\": 7,\n            \"irritability\": \"n\",\n            \"itching\": \"n\",\n            \"muscle_stiffness\": \"n\",\n            \"name\": \"Ravi\",\n            \"obesity\": \"n\",\n            \"partial_paresis\": \"y\",\n            \"polydipsia\": \"y\",\n            \"polyphagia\": \"y\",\n            \"polyuria\": \"y\",\n            \"result\": \"positive\",\n            \"sudden_weight_loss\": \"n\",\n            \"test_date\": \"2022-07-15\",\n            \"type\": \"Type I\",\n            \"uid\": \"15\",\n            \"visual_blurring\": \"n\",\n            \"weakness\": \"n\"\n        },\n        {\n            \"age\": \"25\",\n            \"alopecia\": \"y\",\n            \"delayed_healing\": \"y\",\n            \"gender\": \"f\",\n            \"genital_thrush\": \"n\",\n            \"id\": 8,\n            \"irritability\": \"n\",\n            \"itching\": \"n\",\n            \"muscle_stiffness\": \"y\",\n            \"name\": \"Ravi\",\n            \"obesity\": \"y\",\n            \"partial_paresis\": \"y\",\n            \"polydipsia\": \"y\",\n            \"polyphagia\": \"y\",\n            \"polyuria\": \"y\",\n            \"result\": \"positive\",\n            \"sudden_weight_loss\": \"n\",\n            \"test_date\": \"2022-07-15\",\n            \"type\": \"Type II\",\n            \"uid\": \"15\",\n            \"visual_blurring\": \"n\",\n            \"weakness\": \"n\"\n        },\n        {\n            \"age\": \"25\",\n            \"alopecia\": \"n\",\n            \"delayed_healing\": \"n\",\n            \"gender\": \"m\",\n            \"genital_thrush\": \"n\",\n            \"id\": 9,\n            \"irritability\": \"n\",\n            \"itching\": \"n\",\n            \"muscle_stiffness\": \"n\",\n            \"name\": \"Ravi\",\n            \"obesity\": \"n\",\n            \"partial_paresis\": \"y\",\n            \"polydipsia\": \"y\",\n            \"polyphagia\": \"y\",\n            \"polyuria\": \"y\",\n            \"result\": \"positive\",\n            \"sudden_weight_loss\": \"n\",\n            \"test_date\": \"2022-07-15\",\n            \"type\": \"Type I\",\n            \"uid\": \"15\",\n            \"visual_blurring\": \"n\",\n            \"weakness\": \"n\"\n        }\n    ],\n    \"status\": \"ok\"\n}"
+				}
+			]
+		}
+	]
+}
